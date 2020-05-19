@@ -1,0 +1,14 @@
+.professionalSkills{
+    padding-left: 20%;
+}
+.professionalProgress{
+    list-style-type: none;
+}
+.professionalProgress li{
+    display: inline-block;
+    margin: 0 auto;
+    float: none;
+    width: 48%;
+    margin-bottom: 30px;
+    text-align: center;
+}

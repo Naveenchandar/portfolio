@@ -1,0 +1,71 @@
+.mainPage .firstHalf{
+    text-align: left;
+    color: white;
+    padding-top: 100px;
+}
+
+.mainPage .firstHalf ul li .fa{
+    margin-right: 15px;
+}
+.mainPage .firstHalf ul li address{
+    display: inline;
+}
+.mainPage .firstHalf .helloSpan{
+    margin-bottom: 30px;
+}
+.mainPage .firstHalf .helloSpan span{
+    background-color: #188c91;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+}
+.mainPage .firstHalf .socialIcons{
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px;
+}
+.mainPage .firstHalf .socialIcons li{
+    margin: 10px 0;
+}
+.mainPage .firstHalf .socialIcons li a{
+    font-size: 18px;
+    line-height: 30px;
+    padding: 4px 14px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+.mainPage .firstHalf .name{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 65px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mainPage .firstHalf .designation{
+    font-size: 26px;
+    line-height: 34px;
+    margin-bottom: 30px;
+}
+
+.mainPage .firstHalf .profileInfo{
+    margin-top: 20px;
+    padding-left: 0px;
+}
+.mainPage .firstHalf .profileInfo li{
+    margin: 10px 0;
+}
+
+.mainPage .firstHalf .socialIcons li:hover .fa {
+    color: #188c91;
+}
+.mainPage .firstHalf .socialIcons li:hover a {
+    background-color: #fff;
+}

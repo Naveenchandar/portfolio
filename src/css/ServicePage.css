@@ -1,0 +1,17 @@
+.servicePage{
+    color: white;
+}
+.serviceSecondHalf{
+    text-align: left;
+}
+.servicePage .sectionPageTitle{
+    margin-bottom: 60px;
+}
+.servicePage .sectionPageText{
+    border-radius: 4px;
+    padding: 20px;
+}
+.serviceItem {
+    box-shadow: -1rem 0 3rem #000;
+    background-color: #202026;
+}

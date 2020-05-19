@@ -1,0 +1,42 @@
+.education h3, .workExp h3{
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+.experince{
+    text-align: left;
+}
+.eduYear{
+    margin: 10px 0;
+}
+.educationItem p {
+    font-size: 14px;
+    line-height: 23px;
+    margin-bottom: 0;
+}
+.dark-bg{
+    background-color: #202026;
+}
+.workResponsibility{
+    list-style-type: none;
+}
+.workResponsibility li{
+    font-size: 14px;
+    line-height: 23px;
+    margin: 2px 0;
+}
+.workResponsibility li .fa{
+    font-size: 10px;
+    line-height: 23px;
+    margin-right: 10px;
+}
+
+.univName{
+    font-style: italic;
+    margin-left: 4px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600
+}

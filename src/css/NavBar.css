@@ -1,0 +1,3 @@
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: #e9ecef #e9ecef #100e17 !important;
+}

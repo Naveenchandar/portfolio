@@ -1,0 +1,30 @@
+.aboutSecondHalf{
+    text-align: left;
+}
+.aboutSecondHalf .aboutInner{
+    color: white;
+}
+.aboutSecondHalf .aboutInner h2{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.aboutSecondHalf .aboutInner p{
+    margin-bottom: 30px;
+}
+.aboutSecondHalf .aboutTag ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 0px;
+}
+.aboutSecondHalf .cvDownload{
+    margin-top: 20px;
+    color: white;
+    outline: 0;
+    padding: 8px 30px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: #188c91;
+}
