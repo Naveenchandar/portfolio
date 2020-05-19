@@ -2,7 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import './css/ServicePage.css';
+import '../css/ServicePage.css';
 import ServicePage2 from './ServicePage2';
 
 function ServicePage(props) {

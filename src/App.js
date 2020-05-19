@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import MainPage from './MainPage';
-import AboutPage from './AboutPage';
-import ServicePage from './ServicePage';
-import NavBar from './NavBar';
-import SkillsPage from './SkillsPage';
-import CarrierPage from './CarrierPage';
-import ContactPage from './ContactPage';
+import MainPage from './components/MainPage';
+import AboutPage from './components/AboutPage';
+import ServicePage from './components/ServicePage';
+import NavBar from './components/NavBar';
+import SkillsPage from './components/SkillsPage';
+import CarrierPage from './components/CarrierPage';
+import ContactPage from './components/ContactPage';
 
 
 function App() {

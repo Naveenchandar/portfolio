@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import { Animated } from "react-animated-css";
 import ScrollAnimation from 'react-animate-on-scroll';
-import './css/MainPage.css'
+import '../css/MainPage.css'
 
 function MainPage(props) {
     return (

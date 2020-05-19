@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Animated } from "react-animated-css";
-import './css/AboutPage.css'
+import '../css/AboutPage.css'
 
 function AboutPage(props) {
     return (

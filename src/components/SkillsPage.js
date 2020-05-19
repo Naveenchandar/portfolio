@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import TechnicalSkills from './TechnicalSkills';
 import ProfessionalSkills from './ProfessionalSkills';
-import './css/SkillsPage.css'
+import '../css/SkillsPage.css'
 
 function SkillsPage(props) {
     const skillsStyle = {

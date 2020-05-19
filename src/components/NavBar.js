@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
-import './css/NavBar.css';
+import '../css/NavBar.css';
 
 function NavBar() {
     const [bgColor, setBgColor] = useState('');

@@ -1,6 +1,6 @@
 import React from 'react';
 import Col from 'react-bootstrap/Col';
-import './css/ServicePage.css';
+import '../css/ServicePage.css';
 
 function ServicePage2(props) {
     return (

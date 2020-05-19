@@ -1,6 +1,6 @@
 import React from 'react';
 import Col from 'react-bootstrap/Col';
-import './css/CarrierPage.css';
+import '../css/CarrierPage.css';
 import BorderBox from './BorderBox';
 
 function Education() {

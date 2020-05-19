@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 import ContactInfo from './ContactInfo';
 import ContactForm from './ContactForm';
 import ContactFooter from './ContactFooter';
-import './css/ContactPage.css'
+import '../css/ContactPage.css'
 
 function ContactPage(props) {
     const footerStyle = {
