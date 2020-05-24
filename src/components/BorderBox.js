@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react';
+import { ThemeContext } from 'styled-components';
 
 function BorderBox(props) {
+    const themeContext = useContext(ThemeContext);
+    const mainPageStyle = {
+        color: themeContext.color
+    }
     const borderStyle = {
-        boxShadow: '-1rem 0 3rem #000',
         marginBottom: '30px',
         padding: '26px 30px',
         borderRadius: '4px'

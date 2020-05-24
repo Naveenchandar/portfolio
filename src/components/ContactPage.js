@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -6,10 +6,16 @@ import ContactInfo from './ContactInfo';
 import ContactForm from './ContactForm';
 import ContactFooter from './ContactFooter';
 import '../css/ContactPage.css'
+import FooterPage from './FooterPage';
+import { ThemeContext } from 'styled-components';
 
 function ContactPage(props) {
     const footerStyle = {
         color: 'white'
+    }
+    const themeContext = useContext(ThemeContext);
+    const mainPageStyle = {
+        color: themeContext.color
     }
     return (
         <footer className="footer" id={props.id} style={footerStyle}>
@@ -29,6 +35,9 @@ function ContactPage(props) {
                         </Col>
                         <ContactFooter />
                     </Row>
+                    <>
+                        <FooterPage />
+                    </>
                 </Container>
             </div>
         </footer>

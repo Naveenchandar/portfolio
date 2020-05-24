@@ -12,6 +12,6 @@
     padding: 20px;
 }
 .serviceItem {
-    box-shadow: -1rem 0 3rem #000;
+    /* box-shadow: -1rem 0 3rem #000; */
     background-color: #202026;
 }

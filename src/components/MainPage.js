@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import { Animated } from "react-animated-css";
 import ScrollAnimation from 'react-animate-on-scroll';
-import '../css/MainPage.css'
+import '../css/MainPage.css';
+import { ThemeContext } from 'styled-components';
 
 function MainPage(props) {
+    const themeContext = useContext(ThemeContext);
+    const mainPageStyle = {
+        color: themeContext.color
+    }
     return (
         <>
             <section className="mainPage" id={props.id}>
@@ -19,20 +24,20 @@ function MainPage(props) {
                                             <span>Hello I'm</span>
                                         </div>
 
-                                        <h2 className="name">Naveen Chandar</h2>
-                                        <h4 className="designation">Frontend Developer</h4>
+                                        <h2 className="name" style={mainPageStyle}>Naveen Chandar</h2>
+                                        <h4 className="designation" style={mainPageStyle}>Frontend Developer</h4>
                                         <ScrollAnimation animateIn='bounceInRight' animateOut='bounceOutLeft'>
                                             <ul style={{ listStyleType: 'none' }} className="profileInfo">
-                                                <li><i className="fa fa-envelope"></i><a href="mailto:">naveenchandece@email.com</a></li>
-                                                <li><i className="fa fa-phone"></i><a href="callto:">+91 7418887397</a></li>
-                                                <li><i className="fa fa-map-marker"></i><address> R.V.E. Layout, Tiruppur, Tamilnadu</address></li>
+                                                <li style={mainPageStyle}><i className="fa fa-envelope"></i><a style={mainPageStyle} href="mailto:">naveenchandece@email.com</a></li>
+                                                <li style={mainPageStyle}><i className="fa fa-phone"></i><a style={mainPageStyle} href="callto:">+91 7418887397</a></li>
+                                                <li style={mainPageStyle}><i className="fa fa-map-marker"></i><address style={mainPageStyle}> R.V.E. Layout, Tiruppur, Tamilnadu</address></li>
                                             </ul>
 
                                             <ul style={{ listStyleType: 'none' }} className='socialIcons'>
-                                                <li><a href="facebook"><i className="fa fa-facebook"></i></a></li>
-                                                <li><a href="twitter"><i className="fa fa-twitter"></i></a></li>
-                                                <li><a href="github"><i className="fa fa-github"></i></a></li>
-                                                <li><a href="dribble"><i className="fa fa-dribbble"></i></a></li>
+                                                <li><a style={mainPageStyle} href="facebook"><i className="fa fa-facebook"></i></a></li>
+                                                <li><a style={mainPageStyle} href="twitter"><i className="fa fa-twitter"></i></a></li>
+                                                <li><a style={mainPageStyle} href="github"><i className="fa fa-github"></i></a></li>
+                                                <li><a style={mainPageStyle} href="dribble"><i className="fa fa-dribbble"></i></a></li>
                                             </ul>
                                         </ScrollAnimation>
                                     </Col>

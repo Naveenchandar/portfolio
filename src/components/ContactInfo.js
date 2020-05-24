@@ -1,13 +1,18 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import '../css/ContactPage.css';
+import { ThemeContext } from 'styled-components';
 
 function ContactInfo() {
+    const themeContext = useContext(ThemeContext);
+    const mainPageStyle = {
+        color: themeContext.color
+    }
     return (
         <>
             <Col xs={12} className="contactSectionTitle wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-                <h3>Contact Me</h3>
+                <h3 style={mainPageStyle}>Contact Me</h3>
             </Col>
             <Col xs={12} className="footerAddress">
                 <Row>
@@ -19,7 +24,7 @@ function ContactInfo() {
                             <div className="eachInfo">
                                 <h4>Address</h4>
                                 <address>
-                                R.V.E. Layout, Tiruppur, <br />
+                                    R.V.E. Layout, Tiruppur, <br />
                                                  Tamilnadu
                                             </address>
                             </div>
