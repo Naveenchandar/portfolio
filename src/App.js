@@ -15,16 +15,6 @@ const ButtonStyle = styled.button`
   border: none;
   position:fixed;
 `
-const lighTheme = {
-  theme:'light',
-  background: '#fff',
-  color: '#6f6f6f'
-}
-const darkTheme = {
-  theme:'dark',
-  background: '#100e17',
-  color: '#fff'
-}
 
 function App() {
   const GlobalStyle = createGlobalStyle`
@@ -43,6 +33,16 @@ function App() {
     transition: all 0.25s linear;
   }
   `
+  const lighTheme = {
+    theme:'light',
+    background: '#fff',
+    color: '#6f6f6f'
+  }
+  const darkTheme = {
+    theme:'dark',
+    background: '#100e17',
+    color: '#fff'
+  }
   const [theme, setTheme] = useState('light')
   const toggleTheme = () => {
     if (theme === 'light') {
